@@ -18,7 +18,7 @@ function deposit() {
         updateBalance();
         document.getElementById('message').innerText = "Deposit successful";
     } else {
-        document.getElementById('message').innerText = "Invalid deposit amount.";
+        document.getElementById('message').innerText = "Invalid deposit amount!.";
     }
 }
 
@@ -34,7 +34,7 @@ function withdraw() {
             document.getElementById('message').innerText = "Insufficient funds.";
         }
     } else {
-        document.getElementById('message').innerText = "Invalid withdrawal amount";
+        document.getElementById('message').innerText = "Invalid withdrawal amount!!";
     }
 }
 
